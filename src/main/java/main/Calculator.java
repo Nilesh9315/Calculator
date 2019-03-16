@@ -11,8 +11,7 @@ public class Calculator {
         num2 = inp.nextInt();
         int ans;
         System.out.println("Enter your selection: 1 for Addition, 2 for substraction 3 for Multiplication and 4 for division:");
-        int choose;
-        choose = inp.nextInt();
+        int   choose = inp.nextInt();
         switch (choose){
         case 1:
             System.out.println(add( num1,num2));
@@ -37,27 +36,31 @@ public class Calculator {
     }
     public static int add(int x, int y)
     {
-    	int result=0;
-//        write your code here 
+    	int a=x;
+    	int b=y;
+    	int result=a+b;
     	
         return result;
     }
     public static int sub(int x, int y)
     {
-    	int result=0;
-//        write your code here
+    	int a=x;
+    	int b=y;
+    	int result=a-b;
         return result;
     }
     public static int mult(int x, int y)
     {
-    	int result=0;
-//      write your code here        
+    	int a=x;
+    	int b=y;
+    	int result=a*b;
     	return result;
     }
     public static int div(int x, int y)
     {
-    	int result=0;
-//      write your code here
+    	int a=x;
+    	int b=y;
+    	int result=a/b;
     	return result;
     }
 
